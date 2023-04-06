@@ -1,0 +1,25 @@
+{
+  "name": "new-whatsapp-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && enxit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@deathabyss/wwebjs-sender": "^1.93.0",
+    "body-parser": "^1.19.2",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "whatsapp-web.js": "git+https://github.com/pedroslopez/whatsapp-web.js.git#fix-buttons-list"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
